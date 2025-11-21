@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "one" {
-  ami           = "ami-0fa3fe0fa7920f68e" # Example AMI ID, replace with a valid one
+  ami           = "ami-03978d951b279ec0b" # Example AMI ID, replace with a valid one
   instance_type = "t2.micro"              # Default instance type, can be overridden
   tags = {
     Name = "lokesh-server"
